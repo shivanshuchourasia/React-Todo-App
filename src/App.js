@@ -26,7 +26,7 @@ class App extends Component {
 				todos
 			};
 		});
-		console.log(this.state);
+		// console.log(this.state);
 	}
 
 	render() {

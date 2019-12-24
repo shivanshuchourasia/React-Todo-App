@@ -16,6 +16,7 @@ export default (props) => {
 						color: props.item.completed ? '#cdcdcd' : 'black',
 						fontStyle: props.item.completed ? 'italic' : null
 					}}
+					onClick={() => props.handleChange(props.item.id)}
 					className="m-2"
 				>
 					{props.item.text}
